@@ -149,6 +149,10 @@ document.onclick = function(e) {
     }
 }
 
+
+
+
+
 //Get all the hyperlink elements
 var links = document.getElementsByTagName("a");
 
