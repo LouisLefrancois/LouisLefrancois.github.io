@@ -149,14 +149,6 @@ document.onclick = function(e) {
     }
 }
 
-
-
-
-
-
-
-
-
 //Get all the hyperlink elements
 var links = document.getElementsByTagName("a");
 
@@ -170,9 +162,7 @@ Array.prototype.forEach.call(links, function(elem, index) {
             ev.preventDefault();
             //Scroll to the target element using replace() and regex to find the href's target id
             document.getElementById(elemAttr.replace(/#/g, "")).scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-                inline: "nearest"
+                behavior: "smooth"
             });
         });
     }
