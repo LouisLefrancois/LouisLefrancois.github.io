@@ -95,7 +95,7 @@ a {
     display: inline-block;
     text-decoration: none;
     list-style: none;
-    padding: 10px 5px;
+    padding: 5px 5px;
     letter-spacing: .5px;
 }
 
@@ -969,7 +969,7 @@ svg:hover {
     }
     #burger {
         position: absolute;
-        top: 17px;
+        top: 22px;
         right: 10px;
         display: flex;
         flex-direction: column;
@@ -988,7 +988,7 @@ svg:hover {
     }
     #burger .dash:nth-of-type(3) {
         position: absolute;
-        top: calc(23px - 2.5px);
+        top: calc(18px - 2.5px);
     }
     .activeBurger .dash:nth-of-type(1) {
         opacity: 0;
