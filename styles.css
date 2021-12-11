@@ -30,6 +30,11 @@
     --clr8: #a6c0a154;
 }
 
+::selection {
+    background-color: var(--clr2);
+    color: var(--clr1);
+}
+
 .vert {
     color: var(--clr2);
 }
