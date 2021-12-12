@@ -87,6 +87,7 @@ h3 {
     font-size: 14px;
     margin-right: 30px;
     display: inline-block;
+    /* display: flex; */
 }
 
 .navbar li,
@@ -201,7 +202,7 @@ header.hide {
     content: "";
     display: block;
     height: 4px;
-    left: 530px;
+    left: 535px;
     position: absolute;
     background: var(--clr2);
     opacity: 0.3;
@@ -432,9 +433,19 @@ header.hide {
     width: 350px;
     border: 2px solid var(--clr2);
     color: white;
+    background: url(img/starsBG.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-#bgImg {
+.educ {
+    margin: 40px;
+    padding: 30px;
+    height: 295px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.200);
+    border: 2px solid var(--clr2);
+    color: white;
     background: url(img/starsBG.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
