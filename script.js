@@ -99,7 +99,7 @@ window.addEventListener('load', () => {
 document.addEventListener("mousemove", parallax1);
 
 function parallax1(e) {
-    document.querySelectorAll("#para").forEach(function(move) {
+    document.querySelectorAll(".planet").forEach(function(move) {
 
         var moving = move.getAttribute("data-value");
         var x = (e.clientX * moving) / 300;
