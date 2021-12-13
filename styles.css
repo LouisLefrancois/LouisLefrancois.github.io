@@ -105,6 +105,22 @@ li {
     list-style: none;
 }
 
+ol {
+    padding: 5px 5px;
+}
+
+.buttonCV {
+    color: var(--clr2);
+    border: 1px solid var(--clr2);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.buttonCV:hover {
+    background-color: #44444450;
+}
+
 a:hover {
     color: var(--clr2);
 }
@@ -967,7 +983,7 @@ svg:hover {
         list-style: none;
         font-size: 18px;
         margin-top: 40px;
-        padding: 10px 5px;
+        padding: 10px 20px;
         opacity: 1;
     }
     .logo a {
