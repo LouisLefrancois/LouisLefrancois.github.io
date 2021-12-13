@@ -254,7 +254,7 @@ header.hide {
 
 /* Planet Section */
 
-.planet1 {
+#planet1 {
     position: absolute;
     top: -50px;
     left: -20px;
@@ -267,7 +267,7 @@ header.hide {
     animation: fadeIn 2s;
 }
 
-.planet2 {
+#planet2 {
     position: absolute;
     top: 85%;
     right: 10%;
@@ -278,7 +278,7 @@ header.hide {
     animation: fadeIn 2s;
 }
 
-.planet3 {
+#planet3 {
     position: absolute;
     top: -150px;
     left: -250px;
@@ -843,7 +843,7 @@ svg:hover {
     .hero {
         margin-left: 40px;
     }
-    .planet1 {
+    #planet1 {
         left: -15px;
     }
 }
